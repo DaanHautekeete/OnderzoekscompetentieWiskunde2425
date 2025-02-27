@@ -7,13 +7,12 @@ bars_ondersommen =[]
 width = []
 
 def f(x):
-    return -x**2 + 2*x + 10
+    return np.exp(-2*x)
  
 def Riemann (n,onder,boven):
     delta_x  = ((boven - onder)/n)
     oppervlakte_boven = 0
     oppervlakte_onder = 0
-    
     for i in range(n):
         #via onder en bovensom
         basis = delta_x
