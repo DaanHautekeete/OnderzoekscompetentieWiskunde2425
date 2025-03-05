@@ -43,4 +43,29 @@ def Riemann (n,onder,boven):
     plt.show()
 
     
-Riemann(10,-1,4)
+# Riemann(10,-1,4)
+
+def Trapeziummethode(n, ondergrens , bovengrens):
+
+    #delta x berekenen
+    deltaX = (bovengrens - ondergrens) / n
+
+    #Hier maken we een lijst van waarden tussen de ondergrens en bovengrens die gelijkt verdeeld zijn
+    #We moeten hier n + 1 doen zodat de bovengrens ook in rekening wordt gebracht
+    x_values = np.linspace(ondergrens, bovengrens, n + 1)
+
+    #Hier gebeurt
+    #1) we doen voor alle waarden behalve de eerste en de laatse de uitkomst * 2
+    #2) we berekenen de definitieve waarde voor 1 en 2 en voegen die toe aan ons totaal
+    #3) We nemen van de vorige 2 stappen de som
+    totaal = sum(2 * f(x) for x in x_values[1:-1]) + f(x_values[0]) + f(x_values[-1])
+
+    #Hier berekenen we de definitieve uitkomst van onze integraal en geven we die weer
+    uitkomst = (deltaX / 2) * totaal  # Definitieve waarde
+    print("Uitkomst integraal:", uitkomst)
+
+
+
+Trapeziummethode(10,0,1)
+
+
