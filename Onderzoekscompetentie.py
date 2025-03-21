@@ -43,7 +43,7 @@ def Riemann (n,onder,boven):
     plt.show()
 
     
-Riemann(10,0,1)
+# Riemann(10,-1,4)
 
 def Trapeziummethode(n, ondergrens , bovengrens):
 
@@ -63,6 +63,35 @@ def Trapeziummethode(n, ondergrens , bovengrens):
     #Hier berekenen we de definitieve uitkomst van onze integraal en geven we die weer
     uitkomst = (deltaX / 2) * totaal  # Definitieve waarde
     print("Uitkomst integraal:", uitkomst)
+
+    # Plot de functie en trapezia
+    x_plot = np.linspace(ondergrens, bovengrens, 1000)
+    y_plot = f(x_plot)
+
+    plt.plot(x_plot, y_plot, label="f(x)", color='blue')
+
+    for i in range(n):
+        #X-waarden van de trapezia
+        x0 = x_values[i]
+        x1 = x_values[i + 1]
+
+        #Y-waarden van de trapezia
+        y0 = f(x0)
+        y1 = f(x1)
+
+        #hier plotten we de trapezium
+
+        plt.plot([x0, x0, x1, x1], [0, y0, y1, 0], 'r')
+
+        #Hier vullen we de trapezium met een kleur
+        plt.fill_between([x0, x1], [y0, y1], alpha=0.3, color='red')
+
+    plt.xlabel("x")
+    plt.ylabel("f(x)")
+    plt.legend()
+    plt.title("Trapeziummethode benadering")
+    plt.grid()
+    plt.show()
 
 
 
