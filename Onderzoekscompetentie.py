@@ -43,7 +43,7 @@ def Riemann (n,onder,boven):
     plt.show()
 
     
-# Riemann(10,-1,4)
+Riemann(10,0,1)
 
 def Trapeziummethode(n, ondergrens , bovengrens):
 
@@ -89,7 +89,7 @@ def Trapeziummethode(n, ondergrens , bovengrens):
     plt.xlabel("x")
     plt.ylabel("f(x)")
     plt.legend()
-    plt.title("Trapeziummethode benadering")
+    plt.title("Trapeziummethode")
     plt.grid()
     plt.show()
 
