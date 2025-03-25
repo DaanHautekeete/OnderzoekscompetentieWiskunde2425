@@ -9,7 +9,8 @@ def f(x):
     return np.exp(-2 * x)
 
 # Exacte waarde van de integraal ∫ e^(-2x) dx van 0 tot 1
-exacte_waarde = (-1/2) * (np.exp(-2*1) - np.exp(-2*0))
+#exacte_waarde = (-1/2) * (np.exp(-2*1) - np.exp(-2*0))
+exacte_waarde =0.43
 
 def Riemann(n, onder, boven):
     delta_x = ((boven - onder) / n)
