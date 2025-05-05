@@ -14,7 +14,7 @@ In deze onderzoeksopdracht gaan we de nadruk leggen op integralen berekenen met 
 ## Explanation
 In dit onderdeel zullen we wat extra informatie geven over de werking van de code.
 
-**Let op: De volgende onderdelen zijn nodig vooraleer je het programma kan uitvoeren: Numpy, Matplotlip en Scipy!**
+**Let op: De volgende onderdelen zijn nodig vooraleer je het programma kan uitvoeren: Numpy, Matplotlib en Scipy!**
 
 ### Algemene informatie
 We gebruiken doorheen het programma een algemene functie f(x). Deze is cruciaal voor de rest van de code.
