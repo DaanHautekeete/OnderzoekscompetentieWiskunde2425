@@ -11,11 +11,11 @@ In deze onderzoeksopdracht gaan we de nadruk leggen op integralen berekenen met 
 - Trapeziummethode
 - Berekening Gini-coëfficiënt
 
-##Explanation
+## Explanation
 In dit onderdeel zullen we wat extra informatie geven over de werking van de code.
 
 
-
+ 
 ## Authors
 
 - [@DaanHautekeete](https://github.com/DaanHautekeete)
