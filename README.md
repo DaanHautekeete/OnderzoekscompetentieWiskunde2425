@@ -9,6 +9,11 @@ In deze onderzoeksopdracht gaan we de nadruk leggen op integralen berekenen met 
 
 - Boven- en ondersom (Riemann)
 - Trapeziummethode
+- Berekening Gini-coëfficiënt
+
+##Explanation
+In dit onderdeel zullen we wat extra informatie geven over de werking van de code.
+
 
 
 ## Authors
