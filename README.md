@@ -14,6 +14,16 @@ In deze onderzoeksopdracht gaan we de nadruk leggen op integralen berekenen met 
 ## Explanation
 In dit onderdeel zullen we wat extra informatie geven over de werking van de code.
 
+**Let op: De volgende onderdelen zijn nodig vooraleer je het programma kan uitvoeren: Numpy, Matplotlip en Scipy!**
+
+### Algemene functie
+We gebruiken doorheen het programma een algemene functie f(x). Deze is cruciaal voor de rest van de code.
+
+### Riemann
+We hebben aan dit onderdeel zelf niets moeten doen, want dit werd gegeven door de leerkracht. Deze code berekent de boven- en ondersom.
+
+
+
 
  
 ## Authors
