@@ -47,7 +47,7 @@ We wouden er zeker van zijn dat de functie van de trapeziummethode volledig oper
 
 Om dit te bereiken moesten we bepaalde zaken gaan toepassen:
 - We normaliseren de data naar de cumulatieve waarden.
-- We gebruiken interpolatie om van de losstaande data een lineare functie, zo kunnen we de trapeziummethode gebruiken.
+- We gebruiken interpolatie om van de losstaande data een lineare functie te maken, zo kunnen we de trapeziummethode gebruiken.
 
 ## Authors
 
