@@ -19,7 +19,7 @@ In dit onderdeel zullen we wat extra informatie geven over de werking van de cod
 ### Algemene informatie
 We gebruiken doorheen het programma een algemene functie f(x). Deze is cruciaal voor de rest van de code.
 
-Er is een variabele 'tekenLorenzCurve', deze dient om het tekenen te beperken tot de trapeziummehtode of de lorenzcurve.
+Er is een variabele 'tekenLorenzCurve', deze dient om het tekenen te beperken tot de trapeziummethode of de lorenzcurve.
 
 Voor het visueel weergeven gebruiken we telkens 'matplotlib.pyplot'.
 
